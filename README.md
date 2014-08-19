@@ -1,0 +1,4 @@
+VIMCustom
+=========
+
+Custom VIM configuration
