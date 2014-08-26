@@ -22,8 +22,7 @@ Make the script file executable and run with root privileges, it will ask you wh
 
 The script will then modify your .vimrc file with following components:
 
-syntax on--
-
+syntax on
 set number
 execute pathogen#infect()
 set laststatus=2
