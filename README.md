@@ -22,17 +22,17 @@ Make the script file executable and run with root privileges, it will ask you wh
 
 The script will then modify your .vimrc file with following components:
 
-syntax on 
-set number 
-execute pathogen#infect() 
-set laststatus=2 
-set t_Co=256 
-filetype indent plugin on 
-set expandtab 
-set smarttab 
-set autoindent 
-map <F2> i#!/bin/bash <ESC> 
-map <F3> o#This file was created by Keith Pawson kdpawson at gmail.com on <ESC>:r!date "+\%a \%b \%d \%Y"<ESC>kJ 
+syntax on  
+set number  
+execute pathogen#infect()  
+set laststatus=2  
+set t_Co=256  
+filetype indent plugin on  
+set expandtab  
+set smarttab  
+set autoindent  
+map <F2> i#!/bin/bash <ESC>  
+map <F3> o#This file was created by Keith Pawson kdpawson at gmail.com on <ESC>:r!date "+\%a \%b \%d \%Y"<ESC>kJ  
 
 
 Change the above items to suit your name and other requirements.
