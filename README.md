@@ -6,7 +6,7 @@ Custom VIM configuration for Linux Ubuntu/Debian or CentOS/Redhat based Distos.
   **WARNING Backup your .vimrc file before running this script**
   **You have been Warned!!**
 
-Make the script file executable and run with root privileges, it will ask you which Distro you are running Ubuntu or CentOS. It will first run an update with apt-get update or yum update depending on what distro you entered. It will now install some pre-req packages such as VIM, git and wget and then install the following:
+Make the script file executable and select which Distro you are running Ubuntu or CentOS only at this stage. Run with standard user privileges, it will sudo up when needed and ask for a password. It will first run an update with apt-get update or yum update depending on what distro you entered. It will now install some pre-req packages such as VIM, git and wget and then install the following:
 
 
 ==> pathogen vim plugin
